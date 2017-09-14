@@ -28,13 +28,17 @@ class ViewController: UIViewController {
                   UIImage(named: "IMG_0014"),
                   UIImage(named: "IMG_0017"),
                   UIImage(named: "IMG_0023"),
-                  UIImage(named: "IMG_0024")]
+                  UIImage(named: "IMG_009"),
+                  UIImage(named: "IMG_0010"),
+                  UIImage(named: "IMG_0012")]
     
     let captions = ["IMG_0013",
                     "IMG_0014",
                     "IMG_0017",
                     "IMG_0023",
-                    "IMG_0024"]
+                    "IMG_009",
+                    "IMG_0010",
+                    "IMG_0012"]
     
 
     @IBOutlet weak var captionLabel: UILabel!
@@ -47,36 +51,31 @@ class ViewController: UIViewController {
         {
             if imageIndex <= (images.count - 2)
             {
-                print("less")
                 imageIndex += 1
             }
             else
             {
-                print("greater or eq")
                 imageIndex = 0
             }
             print(imageIndex)
             theImage.image = images[imageIndex]
-            captionLabel.text = "Caption: \(captions[imageIndex])"
+            captionLabel.text = "Image no. : \(captions[imageIndex])"
             
         }
         else
         {
             if imageIndex == 0
             {
-                print("less")
                 imageIndex = (images.count - 1)
-                
             }
             else
             {
-                print("greater or eq")
                 imageIndex -= 1
-                
             }
+            
             print(imageIndex)
             theImage.image = images[imageIndex]
-            captionLabel.text = "Caption: \(captions[imageIndex])"
+            captionLabel.text = "Image no. : \(captions[imageIndex])"
         }
     }
 }
