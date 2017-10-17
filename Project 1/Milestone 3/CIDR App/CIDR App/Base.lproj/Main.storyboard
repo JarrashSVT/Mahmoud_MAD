@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="height" constant="30" id="ebU-qW-OZX"/>
                                     <constraint firstAttribute="width" constant="209" id="itd-6o-bVf"/>
                                 </constraints>
-                                <state key="normal" title="Calculate">
+                                <state key="normal" title="Get Network Info">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -300,10 +300,10 @@
                                 <exclude reference="7RO-21-bL2"/>
                                 <exclude reference="ai5-K0-S4U"/>
                                 <exclude reference="z5Q-8o-3S9"/>
-                                <exclude reference="95V-lW-Y8T"/>
-                                <exclude reference="V0Z-y9-Bn1"/>
                                 <exclude reference="PWb-UA-byv"/>
                                 <exclude reference="d9t-bQ-rNi"/>
+                                <exclude reference="95V-lW-Y8T"/>
+                                <exclude reference="V0Z-y9-Bn1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=regular">
@@ -331,15 +331,15 @@
                                 <exclude reference="l43-P5-tv5"/>
                                 <exclude reference="t7e-aH-diM"/>
                                 <include reference="z5Q-8o-3S9"/>
-                                <include reference="95V-lW-Y8T"/>
-                                <include reference="V0Z-y9-Bn1"/>
-                                <exclude reference="XXq-Os-b6m"/>
-                                <exclude reference="lij-DN-gkZ"/>
                                 <include reference="PWb-UA-byv"/>
                                 <exclude reference="V1Y-5q-ASn"/>
                                 <exclude reference="Xzd-0X-vrH"/>
                                 <include reference="d9t-bQ-rNi"/>
                                 <exclude reference="xiw-oM-Bxw"/>
+                                <include reference="95V-lW-Y8T"/>
+                                <include reference="V0Z-y9-Bn1"/>
+                                <exclude reference="XXq-Os-b6m"/>
+                                <exclude reference="lij-DN-gkZ"/>
                             </mask>
                         </variation>
                     </view>
