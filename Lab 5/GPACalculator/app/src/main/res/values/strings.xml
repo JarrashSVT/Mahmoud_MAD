@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GPA Calculator</string>
+    <string name="cGpa">Cumulative GPA:</string>
+    <string name="gpaHint">3.5</string>
+    <string name="courseTitle">ATLS 5320</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="toggleBtnOff">3</string>
+    <string name="toggleBtnOn">4</string>
+    <string name="radiobutton1">Semester GPA</string>
+    <string name="radiobutton2">Cumulative GPA</string>
+    <string name="checkboxTxt">Show Message</string>
+    <string name="cumulative_credits">Cumulative Credits</string>
+    <string name="credits_hint">12</string>
+    <string-array name="grades">
+        <item>Grade</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D</item>
+        <item>D-</item>
+        <item>F</item>
+    </string-array>
+</resources>
