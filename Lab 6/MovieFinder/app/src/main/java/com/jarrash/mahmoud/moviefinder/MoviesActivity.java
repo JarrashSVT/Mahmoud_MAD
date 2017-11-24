@@ -104,23 +104,8 @@ public class MoviesActivity extends AppCompatActivity {
             case 3:
                 movieDetails ="{\"Title\":\"Forrest Gump\",\"Year\":\"1994\",\"Rated\":\"PG-13\",\"Released\":\"06 Jul 1994\",\"Runtime\":\"142 min\",\"Genre\":\"Drama, Romance\",\"Director\":\"Robert Zemeckis\",\"Writer\":\"Winston Groom (novel), Eric Roth (screenplay)\",\"Actors\":\"Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys\",\"Plot\":\"JFK, LBJ, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.\",\"Language\":\"English\",\"Country\":\"USA\",\"Awards\":\"Won 6 Oscars. Another 39 wins & 66 nominations.\",\"Poster\":\"forrestgump.jpg\",\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"8.8/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"71%\"},{\"Source\":\"Metacritic\",\"Value\":\"82/100\"}],\"Metascore\":\"82\",\"imdbRating\":\"8.8\",\"imdbVotes\":\"1,416,319\",\"imdbID\":\"tt0109830\",\"Type\":\"movie\",\"DVD\":\"28 Aug 2001\",\"BoxOffice\":\"$405,000\",\"Production\":\"Paramount Pictures\",\"Website\":\"http://www.paramount.com/movies/forrest-gump/\",\"Response\":\"True\"}";
                 break;
-            case 4:
-                movieDetails ="";
-                break;
-            case 5:
-                movieDetails ="";
-                break;
-            case 6:
-                movieDetails ="";
-                break;
-            case 7:
-                movieDetails ="";
-                break;
-            case 8:
-                movieDetails ="";
-                break;
             default:
-                movieDetails = "";
+                movieDetails = "{NA}";
                 break;
         }
         return movieDetails;
