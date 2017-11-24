@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movie Finder</string>
+    <string name="genreTxt_value">Genre:</string>
+    <string name="yearTxt_value">Year:</string>
+    <string name="find_a_movie_btn">Find a Movie</string>
+    <string name="runtime_txt">runtime</string>
+    <string name="title_txt">Title</string>
+    <string name="rating_txt">rating</string>
+    <string name="url_txt">URL</string>
+    <string name="boxoffice_txt">BoxOffice</string>
+    <string-array name="genreSpinner_values">
+        <item>Horror</item>
+        <item>Action</item>
+        <item>Drama</item>
+        <item>Crime</item>
+    </string-array>
+</resources>

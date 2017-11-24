@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jarrash.mahmoud.moviefinder.MoviesActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <TextView
+        android:id="@+id/runtimeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="runtime"
+        app:layout_constraintStart_toStartOf="@+id/ratingTxt"
+        app:layout_constraintTop_toBottomOf="@+id/ratingTxt" />
+
+    <TextView
+        android:id="@+id/titleAndYearTxt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="24dp"
+        android:text="Title"
+        app:layout_constraintStart_toEndOf="@+id/posterImg"
+        app:layout_constraintTop_toTopOf="@+id/posterImg" />
+
+    <TextView
+        android:id="@+id/ratingTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="24dp"
+        android:text="rating"
+        app:layout_constraintStart_toStartOf="@+id/titleAndYearTxt"
+        app:layout_constraintTop_toBottomOf="@+id/titleAndYearTxt" />
+
+    <ImageView
+        android:id="@+id/posterImg"
+        android:layout_width="198dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/boxOfficeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="BoxOffice"
+        app:layout_constraintStart_toStartOf="@+id/runtimeTxt"
+        app:layout_constraintTop_toBottomOf="@+id/runtimeTxt" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/urlTxt"
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:text="URL"
+        android:textColor="#1100f3"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/boxOfficeTxt"
+        app:layout_constraintTop_toBottomOf="@+id/boxOfficeTxt" />
+</android.support.constraint.ConstraintLayout>
