@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-title>
+        Movies Suggestions
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-item>
+        <ion-input type="text"  value="The Dark Knight" [(ngModel)]="mName" text-center></ion-input>
+    </ion-item> 
+    
+    <button ion-button full (click)="ngOnInit()"> Get Movies </button>
+
+    <ion-list>
+      <button ion-item *ngFor="let movie of movies" (click)="goToMovieDetailsPage(movie.Name)">
+        <h2>{{ movie.Name }}</h2>
+    
+      </button>
+    </ion-list>
+  </ion-content>
+  
+
+
+
