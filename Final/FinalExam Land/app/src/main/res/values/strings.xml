@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FinalExam</string>
+    <string name="app_title">Burrito Builder</string>
+    <string name="burrito_name">burrito name</string>
+    <string name="toggleTxtOff">Veggie</string>
+    <string name="toggleTxtOn">Meat</string>
+    <string name="salsaCBTxt">Salsa</string>
+    <string name="cheeseCBTxt">Cheese</string>
+    <string name="sour_creamCKTxt">Sour Cream</string>
+    <string name="guacamoleCBTxt">Guacamole</string>
+    <string name="burritoRB">burrito</string>
+    <string name="tacoRB">taco</string>
+    <string name="buildBtn">Build</string>
+    <string name="find_burrito_btn">Find Burrito</string>
+    <string name="gluten_free_switch">Gluten Free</string>
+    <string name="burrito_details">burrito details</string>
+    <string-array name="burritoPlaces">
+        <item>The Hill</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+</resources>
